@@ -1,0 +1,40 @@
+.clock {
+    font-size: 4rem;
+    color: lime;
+    text-shadow: 0 0 10px lime;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid lime;
+    box-shadow: 0 0 15px lime;
+    text-align: center;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: lime;
+    border: 2px solid lime;
+    text-shadow: 0 0 5px lime;
+    box-shadow: 0 0 10px lime;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }  
